@@ -1,5 +1,5 @@
 
-Mylist = ["cat", "dog", "pig", "bear"]
-Mylist.append(Mylist[len(Mylist)- 1])
+doubleLast = ["cat", "dog", "pig", "bear"]
+doubleLast.append(doubleLast[len(doubleLast)- 1])
 
-print(Mylist)
+print(doubleLast)
