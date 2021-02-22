@@ -1,5 +1,8 @@
 
-doubleLast = ["cat", "dog", "pig", "bear"]
-doubleLast.append(doubleLast[len(doubleLast)- 1])
 
-print(doubleLast)
+def doubleLast(j):
+    j.append(j[len(j)- 1])
+    return j
+
+
+print(doubleLast(["cat", "dog", "pig", "bear"]))
